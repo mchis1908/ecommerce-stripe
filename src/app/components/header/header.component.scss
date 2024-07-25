@@ -1,0 +1,33 @@
+.header{
+    position: fixed; 
+    width: 100vw; 
+    padding: 0 80px;
+    background-color: rgb(255, 255, 255, 0.2);
+    width: 100%;
+}
+.desktop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 60px;
+    .menu-left{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 32px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-right{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-direction: row;
+        gap:24px;
+    }
+}
