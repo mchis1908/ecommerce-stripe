@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lato&family=Lobster&family=Pacifico&family=Poppins&family=Roboto&family=Rubik&display=swap');
+
+p{
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.header {
+    font-family: 'Caveat', cursive;
+}
+
+.signature {
+    font-family: 'Lobster', cursive;
+}
