@@ -1,6 +1,7 @@
 <div class="layout">
     <app-header></app-header>
-        <div class="content" style="height: 100vh; padding: 0 64px">
+        <div class="content" style="padding: 0 64px">
+            <app-breadcum *ngIf="pageSelector!=='/'"></app-breadcum>
             <ng-content></ng-content>
         </div>
     <app-footer></app-footer>

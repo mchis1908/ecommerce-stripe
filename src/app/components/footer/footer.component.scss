@@ -61,3 +61,15 @@
 .form-subscription__submit:hover{
     color: var(--wp--preset--color--foreground);
 }
+
+a{
+    text-decoration: none;
+    color: #9c9c9c;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #000;
+}

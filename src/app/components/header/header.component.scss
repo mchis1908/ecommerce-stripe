@@ -47,7 +47,7 @@
                 &:hover::after {
                     width: calc(100% - 10px);
                 }
-                &__selector{
+                &.active {
                     text-decoration: none;
                     position: relative;
                     padding: 5px;
@@ -56,7 +56,7 @@
                     text-transform: uppercase;
                     display: block;
                 }
-                &__selector::after{
+                &.active::after {
                     content: "";
                     border-bottom: 2px solid #000;
                     position: absolute;

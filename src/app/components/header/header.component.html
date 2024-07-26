@@ -2,27 +2,27 @@
     <div class="desktop">
         <ul class="menu-left">
             <li class="menu-left-item">
-                <a class="menu-left-item__content" [className]="pageSeletor=='' ? 'menu-left-item__content__selector' : 'menu-left-item__content'" href="/">
+                <a class="menu-left-item__content" [class.active]="pageSelector === '/'" routerLink="/">
                     <span>HOME</span>
                 </a>
             </li>
             <li class="menu-left-item">
-                <a class="menu-left-item__content" href="/shop">
+                <a class="menu-left-item__content" [class.active]="pageSelector === '/shop'" routerLink="/shop">
                     <span>SHOP</span>
                 </a>
             </li>
             <li class="menu-left-item">
-                <a class="menu-left-item__content" href="/blog">
+                <a class="menu-left-item__content" [class.active]="pageSelector === '/blog'" routerLink="/blog">
                     <span>BLOG</span>
                 </a>
             </li>
             <li class="menu-left-item">
-                <a class="menu-left-item__content" href="/patern">
+                <a class="menu-left-item__content" [class.active]="pageSelector === '/gallery'" routerLink="/gallery">
                     <span>GALLERY</span>
                 </a>
             </li>
             <li class="menu-left-item">
-                <a class="menu-left-item__content" href="/contact">
+                <a class="menu-left-item__content" [class.active]="pageSelector === '/contact'" routerLink="/contact">
                     <span>CONTACT</span>
                 </a>
             </li>

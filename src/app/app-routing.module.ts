@@ -7,8 +7,24 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.module').then((m) => m.HomeModule),
   },
   {
-    path: 'shop',
+    path: 'shop/:id',
     loadChildren: () => import('./shop/shop.module').then((m) => m.ShopModule),
+  },
+  {
+    path: 'blog',
+    loadChildren: () => import('./blog/blog.module').then((m) => m.BlogModule),
+  },
+  {
+    path: 'gallery',
+    loadChildren: () => import('./gallery/gallery.module').then((m) => m.GalleryModule),
+  },
+  {
+    path: 'contact',
+    loadChildren: () => import('./contact/contact.module').then((m) => m.ContactModule),
+  },
+  { 
+    path: '**', 
+    redirectTo: '' 
   },
 ];
 
