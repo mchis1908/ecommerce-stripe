@@ -1,12 +1,32 @@
 <header class="header">
     <div class="desktop">
-        <div class="menu-left col">
-            <h4>HOME</h4>
-            <h4>SHOP</h4>
-            <h4>BLOG</h4>
-            <h4>PATERN</h4>
-            <h4>CONTACT</h4>
-        </div>
+        <ul class="menu-left">
+            <li class="menu-left-item">
+                <a class="menu-left-item__content" [className]="pageSeletor=='' ? 'menu-left-item__content__selector' : 'menu-left-item__content'" href="/">
+                    <span>HOME</span>
+                </a>
+            </li>
+            <li class="menu-left-item">
+                <a class="menu-left-item__content" href="/shop">
+                    <span>SHOP</span>
+                </a>
+            </li>
+            <li class="menu-left-item">
+                <a class="menu-left-item__content" href="/blog">
+                    <span>BLOG</span>
+                </a>
+            </li>
+            <li class="menu-left-item">
+                <a class="menu-left-item__content" href="/patern">
+                    <span>GALLERY</span>
+                </a>
+            </li>
+            <li class="menu-left-item">
+                <a class="menu-left-item__content" href="/contact">
+                    <span>CONTACT</span>
+                </a>
+            </li>
+        </ul>
         <div class="logo col">
             <p style="font-weight: 600; font-size: 24px;">DECOTECH</p>
         </div>

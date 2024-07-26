@@ -3,7 +3,61 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 120px;
     border-top: 1px solid rgba(0, 0, 0, 0.161);
-    gap: 16px
+    gap: 16px;
+    padding: 16px;
+    .footer-feature{
+        display: flex;
+        flex-direction: row;
+        gap: 36px;
+        justify-content: space-between;
+        width: 100%;
+        padding: 20px 80px;
+    }
+}
+
+.copy-writter{
+    display: flex;
+    justify-content: center;
+    gap:32px; 
+    border-top: 1px solid #EDEDED; 
+    padding-top: 16px; 
+    width:100%
+}
+
+.form-subscription{
+    position: relative;
+    display: flex;
+    width:100%
+}
+
+.form-subscription__email{
+    background-color: transparent;
+    border: none;
+    padding: 12px 100px 12px 0;
+    margin: 0 10px 0 0;
+    opacity: 1;
+    border-bottom: 1px solid #EDEDED;
+    border-radius: 0;
+    font-size: var(--wp--preset--font-size--small);
+    font-family: var(--wp--preset--font-family--poppins);
+    outline: none;
+    width: 100%;
+}
+
+.form-subscription__submit{
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    color: var(--wp--preset--color--foreground);
+    padding: 12px 0 12px 30px;
+    position: absolute;
+    right: 0;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+
+.form-subscription__submit:hover{
+    color: var(--wp--preset--color--foreground);
 }

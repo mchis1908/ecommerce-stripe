@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
+  public pageSeletor:string='';
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  
 }
